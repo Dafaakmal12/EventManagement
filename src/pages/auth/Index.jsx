@@ -53,7 +53,7 @@ export default function Index() {
     <div className="mx-auto flex w-full max-w-sm flex-col gap-6">
       <div className="flex flex-col items-center">
         <h1 className="text-3xl font-semibold">Sign In</h1>
-        <p className="text-sm">Sign in to access your account</p>
+        <p className="text-sm">Sign in Dafa to access your account</p>
       </div>
       <form onSubmit={handleSubmit} className="flex flex-col gap-4">
         <div className="form-group">

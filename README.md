@@ -11,6 +11,8 @@
 - Clone this repository
 - Open terminal and go to this project directory
 - Run `npm install`
+- Run `cp .env.example .env`
+- Fill the `.env` file
 - Run `npm run dev`
 - Open your browser and go to `localhost:3000`
 

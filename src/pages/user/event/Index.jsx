@@ -24,12 +24,12 @@ export default function Index() {
 
   return (
     <div className="">
-      <h1 className="text-4xl font-bold">Event</h1>
+      <h1 className="text-4xl font-bold">Agenda Kegiatan</h1>
       <div className="flex flex-col w-full overflow-x-auto my-2">
         <table className="table-hover table overflow-x-auto table-auto md:table-fixed lg:table-fixed">
           <thead>
             <tr>
-              <th>Nama Event</th>
+              <th>Nama Agenda</th>
               <th>Deskripsi</th>
               <th>Tempat</th>
               <th>Tanggal</th>

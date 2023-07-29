@@ -42,11 +42,11 @@ export default function Index() {
 
   return (
     <div>
-      <h1 className="text-4xl font-bold">Member</h1>
+      <h1 className="text-4xl font-bold">Anggota</h1>
       <div className="flex flex-row justify-between">
-        <h2>Add Member</h2>
+        <h2>Daftar Anggota</h2>
         <Link className="btn btn-active" to="/admin/member/create">
-          Add Member
+          Tambah Anggota
         </Link>
       </div>
       <div className="flex flex-col w-full overflow-x-auto my-2">

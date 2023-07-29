@@ -42,9 +42,9 @@ export default function Layout({ children }) {
               ></path>
             </svg>
             <div className="flex flex-col">
-              <span>Event</span>
+              <span>Sistem Presensi</span>
               <span className="text-xs font-normal text-content2">
-                Management
+                UKM Informatika & Komputer
               </span>
             </div>
           </section>
@@ -83,7 +83,7 @@ export default function Layout({ children }) {
                             d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
                           />
                         </svg>
-                        <span>Event</span>
+                        <span>Presensi</span>
                       </div>
 
                       <span className="menu-icon">
@@ -104,9 +104,9 @@ export default function Layout({ children }) {
 
                     <div className="menu-item-collapse">
                       <div className="min-h-0">
-                        <Link to="/user" className="menu-item ml-6">Event Board</Link>
-                        <Link to="/user/event" className="menu-item ml-6">Event</Link>
-                        <Link to="/user/history" className="menu-item ml-6">History Event</Link>
+                        <Link to="/user" className="menu-item ml-6">Dashboard</Link>
+                        <Link to="/user/event" className="menu-item ml-6">Agenda</Link>
+                        {/* <Link to="/user/history" className="menu-item ml-6">History Agenda</Link> */}
                       </div>
                     </div>
                   </li>

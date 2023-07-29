@@ -89,7 +89,7 @@ export default function Event() {
       />
       <div className="flex flex-col justify-center">
           <button className="btn btn-primary" onClick={handleAbsen}>
-            Absen
+            Presensi
           </button>
       </div>
     </section>

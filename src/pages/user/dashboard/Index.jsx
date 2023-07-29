@@ -50,9 +50,9 @@ export default function Index() {
         <div className="card hidden lg:block lg:row-span-3">
           <div className="w-full text-center">
             <h4 class="text-xl font-bold text-navy-700 dark:text-white">
-              Upcoming Events
+              Agenda Kegiatan Upcoming
             </h4>
-            <p class="px-2 text-base text-gray-600">List of upcoming events</p>
+            <p class="px-2 text-base text-gray-600">Daftar Agenda</p>
           </div>
           {/* rendering list here */}
           <div className="overflow-auto h-80">

@@ -41,9 +41,9 @@ export default function Layout({ children }) {
               ></path>
             </svg>
             <div className="flex flex-col">
-              <span>Event</span>
+              <span>Sistem Presensi</span>
               <span className="text-xs font-normal text-content2">
-                Management
+              UKM Informatika & Komputer
               </span>
             </div>
           </section>
@@ -82,7 +82,7 @@ export default function Layout({ children }) {
                             d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
                           />
                         </svg>
-                        <span>Event</span>
+                        <span>Presensi</span>
                       </div>
 
                       <span className="menu-icon">
@@ -103,9 +103,9 @@ export default function Layout({ children }) {
 
                     <div className="menu-item-collapse">
                       <div className="min-h-0">
-                        <Link to="/admin" className="menu-item ml-6">On Going Event</Link>
-                        <Link to="/admin/event" className="menu-item ml-6">Manage Events</Link>
-                        <Link to="/admin/report" className="menu-item ml-6">Report</Link>
+                        <Link to="/admin" className="menu-item ml-6">Dashboard Admin</Link>
+                        <Link to="/admin/event" className="menu-item ml-6">Kelola Agenda</Link>
+                        <Link to="/admin/report" className="menu-item ml-6">Laporan Presensi</Link>
                       </div>
                     </div>
                   </li>
@@ -125,7 +125,7 @@ export default function Layout({ children }) {
                         d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
                       />
                     </svg>
-                    <span>Member</span>
+                    <span>Anggota</span>
                   </Link>
 
                   {/* <li className="menu-item">
@@ -191,7 +191,7 @@ export default function Layout({ children }) {
 
                     <div className="menu-item-collapse">
                       <div className="min-h-0">
-                        <label className="menu-item ml-6">Profile</label>
+                        {/* <label className="menu-item ml-6">Profile</label>fdd6 */}
                         <button onClick={handleLogout} className="menu-item ml-6">Logout</button>
                       </div>
                     </div>

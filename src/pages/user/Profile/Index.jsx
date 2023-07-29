@@ -27,11 +27,7 @@ export default function Index() {
       <div className="w-full my-2 text-left">
         <h4 className="text-2xl font-bold">Profile Information</h4>
         <p className="text-md text-navy-700 dark:text-white">
-          As we live, our hearts turn colder. Cause pain is what we go through
-          as we become older. We get insulted by others, lose trust for those
-          others. We get back stabbed by friends. It becomes harder for us to
-          give others a hand. We get our heart broken by people we love, even
-          that we give them all...
+          Informasi tentang diri anda
         </p>
       </div>
       <div className="grid grid-cols-2 gap-4 w-full">

@@ -4,6 +4,7 @@ import Swal from "sweetalert2";
 import { useLocalStorage } from "../../hooks/useLocalStorage";
 import { useNavigate } from "react-router-dom";
 
+
 export default function Index() {
   const navigate = useNavigate();
 
@@ -49,8 +50,10 @@ export default function Index() {
       });
     }
   };
+  
   return (
-    <div className="mx-auto flex w-full max-w-sm flex-col gap-6">
+    
+    <div className="mx-auto flex w-full max-w-sm flex-col gap-6" >
       <div className="flex flex-col items-center">
     <img src="./IK.png" alt="Logo" style={{ width: "70%" }}/><br />
         <h1 className="text-3xl font-semibold">Sign In</h1>

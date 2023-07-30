@@ -23,7 +23,7 @@ export default function index() {
   return (
     <div>
       <Suspense fallback={<Loading />}>
-        <h1>asu kontol</h1>
+        <h1>Loading</h1>
       </Suspense>
     </div>
   );

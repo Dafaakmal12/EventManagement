@@ -23,34 +23,20 @@ export default function Layout({ children }) {
           htmlFor="sidebar-mobile-fixed"
           className="sidebar-overlay"
         ></label>
-        <aside className="sidebar sidebar-fixed-left sidebar-mobile h-full justify-start max-sm:fixed max-sm:-translate-x-full">
-          <section className="sidebar-title items-center p-4">
-            <svg
-              fill="none"
-              height="42"
-              viewBox="0 0 32 32"
-              width="42"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <rect height="100%" rx="16" width="100%"></rect>
-              <path
-                clipRule="evenodd"
-                d="M17.6482 10.1305L15.8785 7.02583L7.02979 22.5499H10.5278L17.6482 10.1305ZM19.8798 14.0457L18.11 17.1983L19.394 19.4511H16.8453L15.1056 22.5499H24.7272L19.8798 14.0457Z"
-                fill="currentColor"
-                fillRule="evenodd"
-              ></path>
-            </svg>
+        <aside className="sidebar sidebar-fixed-left sidebar-mobile h-full justify-start max-sm:fixed max-sm:-translate-x-full"><br/>
+          <section className="sidebar-title items-center p-4 justify-center">
+            <img src="./IK.png" alt="Logo" style={{ width: "70%" }}/>
             <div className="flex flex-col">
-              <span>Sistem Presensi</span>
-              <span className="text-xs font-normal text-content2">
-              UKM Informatika & Komputer
-              </span>
+              
             </div>
           </section>
           <section className="sidebar-content">
             <nav className="menu rounded-md">
               <section className="menu-section px-4">
-                <span className="menu-title">Main menu</span>
+              <span>Sistem Presensi</span>
+              <span className="text-xs font-normal text-content2">
+              UKM Informatika & Komputer
+              </span>
                 <ul className="menu-items">
                   <li>
                     <input
